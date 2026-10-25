@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF6F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎀"
+            android:textSize="50sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You slayed!"
+            android:textSize="28sp"
+            android:textColor="#C4706A"
+            android:textStyle="italic"
+            android:fontFamily="serif"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ COMPLETE"
+            android:textSize="10sp"
+            android:textColor="#D4847A"
+            android:letterSpacing="0.15"
+            android:layout_marginBottom="30dp"/>
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="#E8B4A8"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvScore"
+            android:text="80%"
+            android:textSize="52sp"
+            android:textColor="#D4847A"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progress="80"
+            android:progressTint="#D4847A"
+            android:progressBackgroundTint="#F2D9D0"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You really know your brands, queen 💅"
+            android:textSize="13sp"
+            android:textColor="#8B5E5A"
+            android:gravity="center"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bTry"
+            android:text="Try Again 🌸"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_pink"
+            android:padding="14dp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bLogout"
+            android:text="Logout"
+            android:textColor="#C4A09A"
+            android:background="@drawable/button_outline"
+            android:padding="14dp"
+            android:layout_marginBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
